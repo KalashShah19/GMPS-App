@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineProvider="bounds"
+    tools:context=".Records">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#000000"
+        android:cursorVisible="false"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="345dp"
+        android:layout_height="91dp"
+        android:text="@string/green_plantation_management_system"
+        android:textColor="#12EC0D"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Past Records"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="530dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="568dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0">
+
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Date"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="Nitrogen"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Phosphorus"
+                        android:textAlignment="center"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Potassium"
+                        android:textAlignment="center"
+                        tools:ignore="RtlCompat" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Humidity"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Status"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="10/12/2021"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="80%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="90%"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:padding="3dip"
+                        android:text="Good"
+                        android:textAlignment="center" />
+                </TableRow>
+
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
